@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import { Hello } from "./components/Hello";
+import Welcome from "./components/Welcome";
+import JSX_Hello from "./components/JSX_Hello";
+import Message from "./components/Message";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Message />
+      {/* <Hello name="Hadeeqa"> 
+        <p>This is the child tag!</p>
+      </Hello>
+      <Hello name="Ayan" />
+      <Hello name="Mubashra" />
+      <Welcome name="Imran"/>
+      <Welcome name="Asma"/>
+      <JSX_Hello /> */}
     </div>
   );
 }

@@ -5,12 +5,14 @@ import Welcome from "./components/Welcome";
 import JSX_Hello from "./components/JSX_Hello";
 import Message from "./components/Message";
 import Counter from "./components/Counter";
+import Clock from "./components/Clock";
 
 function App() {
   return (
     <div className="App">
       <Message />
       <Counter />
+      <Clock />
       {/* <Hello name="Hadeeqa"> 
         <p>This is the child tag!</p>
       </Hello>

@@ -16,3 +16,26 @@ export const Hello = (props) => {
     </div>
   );
 };
+
+// ------------------------------- Destructuring -------------------------------
+// ------------ Method1 ----------------
+/*export const Hello = ({name}) => {
+    return (
+      <div>
+        <h1>Hello, {name}</h1>
+        {props.children}
+      </div>
+    );
+  };*/
+  
+// ------------ Method2 ----------------
+/*export const Hello = props => {
+    const {name} = props
+    return (
+      <div>
+        <h1>Hello, {name}</h1>
+        {props.children}
+      </div>
+    );
+  };*/
+  

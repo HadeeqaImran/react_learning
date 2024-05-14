@@ -14,6 +14,10 @@ class Message extends Component {
   }
 
   render() {
+    // Destructuring: You can destructure only the props that you wan to use
+    // const {name} = this.props
+    // const {state1} = this.state
+    // Then you can 
     return (
       <div>
         <h1>{this.state.message}</h1>

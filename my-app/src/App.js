@@ -8,6 +8,7 @@ import Counter from "./components/Counter";
 import Clock from "./components/Clock";
 import List from "./components/List"
 import Form from './components/Form'
+import Function_Counter from './components/Function_Counter'
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
       <Clock />
       <List list={[1, 2, 3, 4, 5]}/>
       <Form />
+      <Function_Counter />
       {/* <Hello name="Hadeeqa"> 
         <p>This is the child tag!</p>
       </Hello>

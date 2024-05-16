@@ -1,7 +1,11 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 
 export default function Person() {
   const [name, setName] = useState({first: "", last: ""});
+    useEffect(() => {
+        document.title = `${name.first}`
+    }, [name.first])
+    
     return (
     <> 
         <h2>{name.first} {name.last}</h2>

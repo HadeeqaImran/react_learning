@@ -22,4 +22,4 @@ function Twoway_Counter() {
   )
 }
 
-export default Twoway_Counter;
+export default Twoway_Counter

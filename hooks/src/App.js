@@ -6,6 +6,12 @@ import Array from './components/Array';
 import MouseContainer from './components/MouseContainer';
 import IntervalCounter from './components/IntervalCounter'
 import DataFetch from './components/Datadetch';
+import React from 'react'
+import C from './components/useContext/C'
+
+
+export const UserContext = React.createContext();
+export const ChannelContext = React.createContext();
 
 function App() {
   return (
@@ -17,6 +23,11 @@ function App() {
       <Array />
       <IntervalCounter />
       <DataFetch />
+      <UserContext.Provider value={"Hadeeqa"}>
+        <ChannelContext.Provider value={"Dubizzle"}>
+          <C />
+        </ChannelContext.Provider>
+      </UserContext.Provider>
     </div>
   );
 }

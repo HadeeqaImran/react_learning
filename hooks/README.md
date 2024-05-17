@@ -75,3 +75,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ![alt text](image.png)
 
 Context is created in the top level element from where you wnat your data to trickle down.
+
+React.Memo - a component only renders if there is a change in its state or props
+
+cache a function's result - useMemo
+cache a function - useCallback

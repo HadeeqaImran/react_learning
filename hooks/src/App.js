@@ -5,6 +5,7 @@ import Person from './components/Person';
 import Array from './components/Array';
 import MouseContainer from './components/MouseContainer';
 import IntervalCounter from './components/IntervalCounter'
+import DataFetch from './components/Datadetch';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Person />
       <Array />
       <IntervalCounter />
+      <DataFetch />
     </div>
   );
 }

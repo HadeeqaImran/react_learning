@@ -8,7 +8,8 @@ import IntervalCounter from './components/IntervalCounter'
 import DataFetch from './components/Datadetch';
 import React from 'react'
 import C from './components/useContext/C'
-
+import DF from './components/useReducer/DF'
+import DF2 from './components/useReducer/DF2'
 
 export const UserContext = React.createContext();
 export const ChannelContext = React.createContext();
@@ -28,6 +29,8 @@ function App() {
           <C />
         </ChannelContext.Provider>
       </UserContext.Provider>
+      <DF />
+      <DF2 />
     </div>
   );
 }
